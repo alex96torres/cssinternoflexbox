@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: darkslategray;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    background-color: grey;
+    padding: 20px;
+    justify-content: center;
+}
+
+.flex-container >div {
+    background-color: green;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    line-height: 75px;
+    font-weight: 30px;
+}
+
+div .verde {
+    background-color: rgb(208, 243, 155);
+}
+
+
+
+div {
+    display: block;
+}
